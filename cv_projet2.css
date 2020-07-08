@@ -34,9 +34,15 @@ body
 	margin-right: 3%;
 	order: 1;
 }
+#Contact
+{
+	list-style-position: outside;
+	padding-left: 60px;
+	
+}
 h1
 {
-	font-size: 2.7em;
+	font-size: 2.9em;
 	font-family: dayrom, sans-serif;
 }
 h2
@@ -66,6 +72,11 @@ aside p
 {
 	text-align: center;
 }
+aside h2+p, aside h2+ul
+{
+	text-align: justify;
+	padding: 0px 20px;
+}
 aside h2
 {
 	text-align: center;
@@ -77,6 +88,11 @@ p i
 {
 	font-size: 2.5em;
 }
+#p
+{
+	display: flex;
+	justify-content: space-around;
+}
 #parcourspro
 {
 	order: 2;
@@ -84,10 +100,6 @@ p i
 article h2, footer h2
 {
 	border-bottom: 1px #d32f2f solid;
-}
-#date1, #description1
-{
-	vertical-align: top;
 }
 ul 
 {
@@ -97,3 +109,19 @@ ul, h4, article p, h2 + p
 {
 	font-size: 0.8em;
 }
+#parcourspro ul
+{
+	list-style-position: outside;
+	padding-left: 0px;
+}
+#parcourspro i
+{
+	margin-right: 20px;
+	float: left;
+	color: #d32f2f;
+}
+#parcourspro h2 i
+{
+	font-size: 1.5em;
+}
+
