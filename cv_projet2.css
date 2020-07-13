@@ -22,28 +22,32 @@ body
 	font-family: Georgia;
 	display: flex;
 }
-#apropos, #parcourspro
+#contenu, #parcourspro
 {
 	vertical-align: top;
 } 
-#apropos
+#contenu
 {
+	order: 1;
+	max-height: 1400px;
 	background-color: #d32f2f;
-	max-height: 800px;
 	width: 350px;
 	margin-right: 3%;
-	order: 1;
+}
+#Loisirs
+{
+	margin-top: 350px;
 }
 #Contact
 {
 	list-style-position: outside;
 	padding-left: 60px;
-	
 }
 h1
 {
 	font-size: 2.9em;
 	font-family: dayrom, sans-serif;
+	margin-bottom: 0px;
 }
 h2
 {
@@ -52,7 +56,19 @@ h2
 }
 h1 + p
 {
-	border-bottom: 1px #d32f2f solid;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+hr
+{
+	margin-bottom: 60px;
+	margin-top: 0px;
+	color: #d32f2f;
+	width: 50px;
+	margin-left: 0px;
+	background-color: #d32f2f;
+	border: none;
+	height: 1px;
 }
 h1, h2, h4
 {
@@ -100,6 +116,7 @@ p i
 article h2, footer h2
 {
 	border-bottom: 1px #d32f2f solid;
+	padding-bottom: 8px;
 }
 ul 
 {
@@ -124,4 +141,17 @@ ul, h4, article p, h2 + p
 {
 	font-size: 1.5em;
 }
-
+.carre
+{
+	display: flex;
+}
+.carré
+{
+	width: 80%;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.rectangle
+{
+	width: 110px;
+}
