@@ -8,11 +8,17 @@
 		 url('polices/dayrom.svg#dayrom') format('svg');
 	font-weight: normal;	 
 }
-@media all and (min-width: 400px) and (max-width: 1280px)
+@media all and (max-width: 780px)
 {
 	body
 	{
-		min-width: 400px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#contenu
+	{
+		max-height:700px;
+		margin-left: 3%;
 	}
 }
 body
@@ -31,12 +37,8 @@ body
 	order: 1;
 	max-height: 1400px;
 	background-color: #d32f2f;
-	width: 350px;
+	max-width: 500px;
 	margin-right: 3%;
-}
-#Loisirs
-{
-	margin-top: 350px;
 }
 #Contact
 {
