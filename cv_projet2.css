@@ -3,10 +3,21 @@
 	font-family: 'dayrom';
 	src: url('polices/dayrom.eot');
 	src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
-		 url('polices/dayrom.woff') format('woff'),
-		 url('polices/dayrom.ttf') format('truetype'),
-		 url('polices/dayrom.svg#dayrom') format('svg');
+		url('polices/dayrom.woff') format('woff'),
+		url('polices/dayrom.ttf') format('truetype'),
+		url('polices/dayrom.svg') format('svg');
 	font-weight: normal;	 
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('polices/Montserrat-Regular.eot');
+    src: url('polices/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('polices/Montserrat-Regular.woff2') format('woff2'),
+        url('polices/Montserrat-Regular.woff') format('woff'),
+        url('polices/Montserrat-Regular.ttf') format('truetype'),
+        url('polices/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 @media all and (max-width: 780px)
 {
@@ -18,15 +29,14 @@
 	#contenu
 	{
 		max-height:700px;
-		margin-right: auto;
-		margin-left: auto;
+		margin: auto;
 	}
 }
 body
 {
 	text-align: justify;
 	border: 1px #CFD8DC solid;
-	font-family: Georgia;
+	font-family: Montserrat,sans-serif;
 	display: flex;
 }
 #contenu
@@ -34,6 +44,11 @@ body
 	max-height: 1400px;
 	background-color: #d32f2f;
 	max-width: 550px;
+}
+.donnee
+{
+	font-style: italic;
+	font-weight: bold;
 }
 h1
 {
@@ -61,7 +76,6 @@ hr
 {
 	margin-bottom: 60px;
 	margin-top: 0px;
-	color: #d32f2f;
 	width: 50px;
 	margin-left: 0px;
 	background-color: #d32f2f;
@@ -77,6 +91,10 @@ hr
 	border-radius:50%;
 	width:120px;
 	height:120px;
+}
+li
+{
+	margin-bottom: 10px;
 }
 aside p
 {
@@ -94,7 +112,7 @@ aside h2
 	background-color: #9E9E9E;
 	color: #d32f2f;
 }
-p i
+aside #p i
 {
 	font-size: 2.5em;
 }
@@ -105,7 +123,6 @@ p i
 }
 #parcourspro
 {
-
 	margin-left: 3%;
 }
 article h2, footer h2
@@ -119,7 +136,7 @@ ul
 }
 ul, h4, article p, h2 + p
 {
-	font-size: 0.8em;
+	font-size: 0.9em;
 }
 #parcourspro i
 {
@@ -133,14 +150,17 @@ ul, h4, article p, h2 + p
 }
 #parcourspro .carre i
 {
-	padding-left: 0px;
 	font-size: 1.2em;
+}
+#parcourspro .rectangle p
+{
+	text-align: center;
 }
 .carre
 {
 	display: flex;
 }
-.carré
+.carree
 {
 	width: 80%;
 	margin-right: 50px;
@@ -149,4 +169,10 @@ ul, h4, article p, h2 + p
 .rectangle
 {
 	width: 110px;
+}
+.date
+{
+	font-weight:bold;
+	font-style: oblique;
+	font-family: none;
 }
