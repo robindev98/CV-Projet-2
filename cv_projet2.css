@@ -9,9 +9,9 @@
 	font-weight: normal;	 
 }
 @font-face {
-    font-family: 'Montserrat';
-    src: url('polices/Montserrat-Regular.eot');
-    src: url('polices/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+	font-family:'Montserrat';
+	src: url('polices/Montserrat-Regular.eot');
+	src: url('polices/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
         url('polices/Montserrat-Regular.woff2') format('woff2'),
         url('polices/Montserrat-Regular.woff') format('woff'),
         url('polices/Montserrat-Regular.ttf') format('truetype'),
@@ -41,7 +41,7 @@ body
 }
 #contenu
 {
-	max-height: 1400px;
+	max-height: 16500px;
 	background-color: #d32f2f;
 	max-width: 550px;
 }
@@ -89,8 +89,8 @@ hr
 .robin
 {
 	border-radius:50%;
-	width:120px;
-	height:120px;
+	width:150px;
+	height:150px;
 }
 li
 {
@@ -140,7 +140,7 @@ ul, h4, article p, h2 + p
 }
 #parcourspro i
 {
-	margin-right: 20px;
+	margin-right: 10px;
 	float: left;
 	color: #d32f2f;
 }
