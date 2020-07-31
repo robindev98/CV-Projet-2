@@ -26,9 +26,9 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
-	#contenu
+	#fusion
 	{
-		max-height:700px;
+		max-height: 1050px;
 		margin: auto;
 	}
 }
@@ -39,11 +39,16 @@ body
 	font-family: Montserrat,sans-serif;
 	display: flex;
 }
-#contenu
+#fusion
 {
-	max-height: 16500px;
+	height: 1700px;
 	background-color: #d32f2f;
 	max-width: 550px;
+}
+#loisir
+{
+	position: relative;
+	top: 450px;
 }
 .donnee
 {
